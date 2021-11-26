@@ -3,17 +3,11 @@ using namespace std;
 #include "student.h"
 
 int main(){
-		student s,s2;
-
+		student s("Joe",6381111,20) ,s2("Ben",6382222);
+    student s3("Thanakit");
 	//	s.name="Joe" ; 
       
- 		s.set_name("Joe");  //Joe 
-    s.set_id(6380928);
-    s.set_age(20);
-
-    s2.set_name("Ben");
-		s2.set_age(28);
-    s.set_id(6380111);
+ 		
     s.print_name();
   
     s2.print_name();
